@@ -1,0 +1,12 @@
+Set: A set is an unordered collection of objects, e.g., students in this class; air molecules in this room.
+Element: The objects in a set are called the elements, or members of the set. a∈A means that 'a' is an element of A (A is the set) .
+
+Some Important Sets:
+B = Boolean values = {true,false}
+N = natural numbers ={0,1,2,3,... }
+Z = integers = {..,-3,-2,-1,0,1,2,3,4..}
+Z+ = positive integers = {1,2,3,..}
+R = set of real numbers
+R+ = R>0 = set of positive real numbers
+C = set of complex numbers
+Q = set of rational numbers 

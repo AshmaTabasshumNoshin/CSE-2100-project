@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Discrete Math</string>
+    <string-array name="mainchapter">
+        <item>Set and Function</item>
+        <item>Advance Counting</item>
+        <item>Graphs</item>
+
+    </string-array>
+    <string-array name="subchapter1">
+        <item>Set</item>
+        <item>Function</item>
+    </string-array>
+    <string-array name="subchapter2">
+        <item>Recurrence relation</item>
+        <item>Linear recurrence relation</item>
+        <item>Inclusion and exclusion</item>
+    </string-array>
+    <string-array name="subchapter3">
+        <item>Graph terminology</item>
+        <item>Different type of graphs</item>
+    </string-array>
+    <string name="set">Set</string>
+    <string name="function">Function</string>
+    <string name="recurrence">Recurrence Relation</string>
+
+    <string name="linear_recurrence">Linear Recurrence Relation</string>
+    <string name="Inclusion_exclusion">Inclusion Exclusion</string>
+    <string name="Graph_terminology">Graph Terminology</string>
+    <string name="types_of_terminology">Types of Graphs</string>
+    <string name="Representing_graphs">Representing Graphs</string>
+    <string name="Boolean_function">Boolean Function</string>
+    <string name="Representing_boolean_function">Representing Boolean Function</string>
+
+
+</resources>

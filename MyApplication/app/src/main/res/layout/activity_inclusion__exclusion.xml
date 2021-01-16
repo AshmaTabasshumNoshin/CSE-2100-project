@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#15d612"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ismail.myapplication.Inclusion_Exclusion">
+
+    <EditText
+        android:id="@+id/SubjectA_Stdnt_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter How Many Student Take Subject A"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/SubjectB_Stdnt_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter How Many Student Take Subject B"
+        android:layout_below="@+id/SubjectA_Stdnt_EditText"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/SubjectAB_Stdnt_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter How Many Student Take Both Subject"
+        android:layout_below="@+id/SubjectB_Stdnt_EditText"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/Result_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Total Student"
+        android:layout_alignParentBottom="true"
+        android:onClick="findIntersection"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

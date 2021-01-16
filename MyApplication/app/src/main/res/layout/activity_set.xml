@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#15d612"
+    tools:context="com.example.ismail.myapplication.Representing_Graphs">
+    <TextView
+        android:id="@+id/DtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Union and Intersection operation"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/SetA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/DtextView"
+        android:hint="Enter The Elements of Set A "/>
+
+    <EditText
+        android:id="@+id/SetB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/SetA"
+        android:hint="Enter The Elements of Set B"/>
+
+
+    <EditText
+        android:id="@+id/SetC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/SetB"
+        android:hint="Enter The Elements of Set C"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/Union"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="union"
+            android:onClick="getUnion"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:id="@+id/Intersection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Intersection"
+            android:onClick="getIntersection"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+</RelativeLayout>
